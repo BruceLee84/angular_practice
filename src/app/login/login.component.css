@@ -1,0 +1,66 @@
+/* body{
+    background-color: coral;
+} */
+
+/* h5{
+    margin-left: 650px;
+    margin-top: 60px;
+    border: 2px solid black;
+    width: 120px;
+    background-color:peru;
+    border-radius: 10px;
+    padding-left: 5px;
+    height: 30px;
+}
+
+label{
+    margin-left: 500px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input{
+    margin-left: 600px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button{
+   margin-left: 650px; 
+   width: 80px;
+   height: 30px;
+   background-color:springgreen;
+   border-radius: 10px;
+} */
+
+
+
+.gradient-custom {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    }
+    
+    .card-custom {
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    background-color: #f8f9fa ;
+    }
+    
+    
+    .input-custom {
+    background-color: white ;
+    }
+    
+    .white-text {
+    color: hsl(52, 0%, 98%);
+    font-weight: 100 ;
+    font-size: 14px;
+    }
+    
+    .back-button {
+    background-color: hsl(52, 0%, 98%);
+    font-weight: 700;
+    color: black ;
+    margin-top: 50px ;
+    }

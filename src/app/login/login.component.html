@@ -1,0 +1,31 @@
+<!-- <!DOCTYPE html>
+<head>
+    <title>...</title>
+</head> -->
+<body>
+    <h5>Login Page</h5>
+    <label>Username:</label><br>
+    <input type="text" [(ngModel)] = "typeuser.name" ><br><br>
+    <label>Password:</label><br>
+    <input type="password" [(ngModel)] = "typeuser.password"><br><br>
+    <button type="submit">Login</button>
+</body>
+
+<div>
+    <div *ngIf = "user.name == typeuser.name && user.password == typeuser.password; then userData else userNotFound"> 
+    </div>
+     <ng-template #userData>
+      <h5>Login success</h5>
+      <h3>Name List</h3>
+      <div *ngFor = "let i of users">
+        
+        <li>{{i.Name}}</li>
+        <p>{{i.status}}</p>
+      </div>
+     </ng-template>
+     <ng-template #userNotFound>
+      <h5>Login failed</h5>
+      <P>please enter correct name and password</P>
+     </ng-template>
+</div>
+

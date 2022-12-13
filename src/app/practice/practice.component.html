@@ -1,0 +1,43 @@
+<h3>pratice works!</h3>
+
+<!-- <div *ngFor = "let users of userDatas">
+    <div [ngSwitch] = "users.status">
+        <li *ngSwitchCase="'true'" [ngStyle]="{'color':'blue'}">
+            {{users.name}} is active
+        </li>
+        <li *ngSwitchCase="'false'" [ngStyle]="{'color':'red'}">
+            {{users.name}} is Not active
+        </li>
+        
+        <li *ngSwitchDefault [ngStyle]="{'color':'black'}">
+           No data found 
+        </li>
+    </div>
+  </div> -->
+
+
+<h4>{{product.product}}</h4>
+<h4>{{product.price}}</h4>
+<button type="submit" (click)="increase()">increase</button><br><br>
+<button type="submit" (click)="decrease()">increase</button>
+
+
+<!--  -->
+<div>
+    <table class="table">
+      <thead>
+        <tr> 
+          <th>name</th>
+          <th>role</th>
+          <th>year</th>
+        </tr>
+      </thead>
+      <tbody *ngFor = "let agent of child">
+        <tr>
+          <td>{{agent.name}}</td>
+          <td>{{agent.role}}</td>
+          <td>{{agent.year}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
